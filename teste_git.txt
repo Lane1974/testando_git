@@ -1,4 +1,18 @@
-1) Depois de instalar o git, ir no terminal e digiar git init
+1) Depois de instalar o git, ir no terminal do git e digiar git init.  Sair do
 2) criar uma pasta em qualquer lugar
 3) entrar nessa pasta, clicar com o botão direito e escolher a opção "git bash here"
 4) criar um arquivo qualquer nessa pasta
+5) no terminal do git, dar git status -> que vai informar que o arquivo criado ainda não foi versionado.o nome vai
+estar em vermelho.
+6) para adicionar tem que dar o git add "nome do arquivo".
+7) ao fazer isso, dar o git status e o nome vai estar em verde.
+obs: para adicionar os vários arquivos, ao mesmo tempo, escrevemos git add .
+8) Para criar a versão damos o git commit -m "comentário"
+9) configurar o usuario no git: git config --global user.email "laneandrade@gmail.com"
+10) git config --global user.email "laneandrade@gmail.com"
+11) enviar a versão para a nuvem: git push
+12 como ainda naõ tem pasta , tem que criar no git indo em "nem repository".
+13) voltar ao git e digitar git remote origin https://github.com/Lane1974/testando_git
+14) dar o git push novamente
+
+
