@@ -14,5 +14,18 @@ obs: para adicionar os vários arquivos, ao mesmo tempo, escrevemos git add .
 12 como ainda naõ tem pasta , tem que criar no git indo em "nem repository".
 13) voltar ao git e digitar git remote origin https://github.com/Lane1974/testando_git
 14) dar o git push novamente
+15) git reflog-> vê o histórico de versões.
+16) para voltar uma versão: git reset -hard id da versao anterior.
+    ex: git reset -hard d1d0b0e
+
+17) criar branch : git branch nome
+    a branch atual sempre está com * e em verde. para mudar de branch: git checkout nome
+
+18) juntando aquivos de uma nova branch com os que estão na master
+    garantir que estamos na master: git checkout master
+                                    git branch
+                                    git pull
+                                    git merge brand-que-estava-usando
+                                    git push
 
 
