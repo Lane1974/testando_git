@@ -1,0 +1,4 @@
+1) Depois de instalar o git, ir no terminal e digiar git init
+2) criar uma pasta em qualquer lugar
+3) entrar nessa pasta, clicar com o botão direito e escolher a opção "git bash here"
+4) criar um arquivo qualquer nessa pasta
